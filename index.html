@@ -1,0 +1,2112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0F172A">
+
+  <title>Satisfaction Spa Dubai | Luxury Massage & Wellness</title>
+  <meta name="description" content="Discover relaxing massage treatments, Moroccan baths and wellness experiences at Satisfaction Spa, Grand Excelsior Hotel, Deira, Dubai. Book your visit.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://satisfactiongranddubai.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Satisfaction Spa | A Refined Wellness Experience in Dubai">
+  <meta property="og:description" content="Explore massage therapies and traditional bath experiences at Satisfaction Spa in Grand Excelsior Hotel, Deira.">
+  <meta property="og:url" content="https://satisfactiongranddubai.com/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-primary: #0F172A;
+      --color-primary-dark: #080E1C;
+      --color-primary-light: #1E293B;
+      --color-secondary: #DCA54A;
+      --color-secondary-dark: #B98228;
+      --color-secondary-light: #F0D49D;
+      --color-accent: #E8C47D;
+      --color-heading: #0F172A;
+      --color-text: #334155;
+      --color-text-muted: #64748B;
+      --color-background: #FFFFFF;
+      --color-background-alt: #F7F5F0;
+      --color-surface: #FFFFFF;
+      --color-surface-alt: #F0EDE6;
+      --color-border: #E5E0D6;
+      --color-border-strong: #C9A66B;
+      --color-interactive: #DCA54A;
+      --color-interactive-hover: #B98228;
+      --color-focus: #F0D49D;
+
+      --font-heading: 'Cormorant Garamond', Georgia, serif;
+      --font-body: 'Manrope', Arial, sans-serif;
+
+      --container: 1280px;
+      --section-space: 110px;
+      --radius: 5px;
+      --transition: 0.35s ease;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text);
+      background: var(--color-background);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    button, a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: var(--section-space) 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 13px;
+      color: var(--color-secondary-dark);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 1px;
+      background: var(--color-secondary);
+    }
+
+    .section-heading {
+      font-family: var(--font-heading);
+      font-weight: 500;
+      font-size: clamp(42px, 5vw, 64px);
+      line-height: 1.06;
+      color: var(--color-heading);
+      margin-top: 17px;
+    }
+
+    .section-description {
+      max-width: 620px;
+      margin-top: 20px;
+      font-size: 17px;
+      line-height: 1.85;
+      color: var(--color-text-muted);
+    }
+
+    .gold {
+      color: var(--color-secondary);
+    }
+
+    .btn {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      min-height: 56px;
+      padding: 14px 25px;
+      border: 1px solid transparent;
+      border-radius: var(--radius);
+      font-size: 16px;
+      font-weight: 800;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+
+    .btn-gold {
+      color: var(--color-primary);
+      background: var(--color-secondary);
+    }
+
+    .btn-gold:hover {
+      background: var(--color-secondary-light);
+      transform: translateY(-3px);
+    }
+
+    .btn-outline {
+      color: white;
+      border-color: rgba(255,255,255,.55);
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: white;
+      color: var(--color-primary);
+    }
+
+    .btn-dark {
+      color: white;
+      background: var(--color-primary);
+    }
+
+    .btn-dark:hover {
+      background: var(--color-primary-light);
+    }
+
+    /* ANNOUNCEMENT */
+
+    .topbar {
+      background: var(--color-primary-dark);
+      color: rgba(255,255,255,.8);
+      padding: 9px 15px;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: .4px;
+    }
+
+    .topbar a {
+      color: var(--color-secondary-light);
+      font-weight: 800;
+      margin-left: 8px;
+    }
+
+    /* NAVIGATION */
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(15,23,42,.97);
+      backdrop-filter: blur(15px);
+      border-bottom: 1px solid rgba(220,165,74,.2);
+    }
+
+    .nav {
+      min-height: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      line-height: 1.1;
+      flex-shrink: 0;
+    }
+
+    .logo-main {
+      font-family: var(--font-heading);
+      font-size: 35px;
+      font-weight: 600;
+      letter-spacing: .5px;
+    }
+
+    .logo-sub {
+      color: var(--color-secondary);
+      font-size: 10px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 4px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: rgba(255,255,255,.82);
+      font-size: 15px;
+      font-weight: 700;
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover {
+      color: var(--color-secondary);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .nav-call {
+      color: white;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .nav-call span {
+      color: var(--color-secondary);
+      margin-right: 7px;
+    }
+
+    .nav-actions .btn {
+      min-height: 48px;
+      padding: 11px 18px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 46px;
+      height: 46px;
+      color: white;
+      border: 1px solid rgba(255,255,255,.3);
+      background: transparent;
+      border-radius: 3px;
+      font-size: 25px;
+      cursor: pointer;
+    }
+
+    /* HERO */
+
+    .hero {
+      position: relative;
+      min-height: 690px;
+      background: var(--color-primary-dark);
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background:
+        linear-gradient(90deg,
+          rgba(8,14,28,.98) 0%,
+          rgba(8,14,28,.94) 34%,
+          rgba(8,14,28,.60) 66%,
+          rgba(8,14,28,.27) 100%),
+        url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=2000&q=85")
+        center 48% / cover no-repeat;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 620px;
+      height: 620px;
+      border: 1px solid rgba(220,165,74,.17);
+      border-radius: 50%;
+      right: -210px;
+      bottom: -280px;
+      z-index: -1;
+      box-shadow:
+        0 0 0 50px rgba(220,165,74,.035),
+        0 0 0 100px rgba(220,165,74,.025);
+    }
+
+    .hero-inner {
+      min-height: 690px;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .hero-content {
+      width: 730px;
+      max-width: 100%;
+      padding: 90px 0;
+    }
+
+    .hero .eyebrow {
+      color: var(--color-secondary-light);
+    }
+
+    .hero h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(58px, 7.5vw, 92px);
+      font-weight: 500;
+      line-height: .98;
+      letter-spacing: -1.7px;
+      color: white;
+      margin: 28px 0;
+    }
+
+    .hero h1 em {
+      display: block;
+      color: var(--color-secondary);
+      font-weight: 400;
+    }
+
+    .hero-description {
+      max-width: 550px;
+      color: rgba(255,255,255,.78);
+      font-size: 18px;
+      line-height: 1.85;
+      margin-bottom: 32px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .hero-location {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 55px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,.2);
+      color: rgba(255,255,255,.8);
+      font-size: 15px;
+    }
+
+    .hero-location strong {
+      color: white;
+    }
+
+    .hero-location .location-mark {
+      color: var(--color-secondary);
+      font-size: 23px;
+    }
+
+    .hero-index {
+      position: absolute;
+      right: 0;
+      bottom: 52px;
+      color: rgba(255,255,255,.65);
+      font-size: 13px;
+      letter-spacing: 3px;
+      writing-mode: vertical-rl;
+    }
+
+    /* INTRODUCTION */
+
+    .intro {
+      background: var(--color-background-alt);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 85px;
+      align-items: center;
+    }
+
+    .intro-visual {
+      position: relative;
+      min-height: 520px;
+    }
+
+    .intro-image {
+      width: 84%;
+      height: 480px;
+      background: #ded5c5;
+      overflow: hidden;
+    }
+
+    .intro-image img {
+      transition: transform .8s ease;
+    }
+
+    .intro-image:hover img {
+      transform: scale(1.05);
+    }
+
+    .intro-visual::before {
+      content: "";
+      position: absolute;
+      top: 25px;
+      right: 0;
+      width: 65%;
+      height: 75%;
+      border: 1px solid var(--color-secondary);
+      pointer-events: none;
+    }
+
+    .intro-note {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 230px;
+      background: var(--color-primary);
+      color: white;
+      padding: 25px;
+      border-bottom: 4px solid var(--color-secondary);
+    }
+
+    .intro-note span {
+      font-family: var(--font-heading);
+      font-size: 27px;
+      color: var(--color-secondary);
+    }
+
+    .intro-note p {
+      font-size: 15px;
+      margin-top: 5px;
+    }
+
+    .intro-copy .section-description {
+      margin-bottom: 26px;
+    }
+
+    .intro-points {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 22px;
+      margin: 28px 0;
+    }
+
+    .intro-points span {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--color-primary);
+    }
+
+    .intro-points span::before {
+      content: "✦";
+      color: var(--color-secondary-dark);
+      margin-right: 8px;
+    }
+
+    /* SIX CUSTOM SVG ICONS */
+
+    .experience {
+      background: white;
+    }
+
+    .experience-header {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 65px;
+    }
+
+    .experience-header .section-description {
+      margin-inline: auto;
+    }
+
+    .icon-rows {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 35px;
+      row-gap: 65px;
+    }
+
+    .icon-item {
+      position: relative;
+      text-align: center;
+      padding: 10px 18px;
+    }
+
+    .icon-art {
+      width: 92px;
+      height: 92px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 23px;
+      border: 1px solid var(--color-border-strong);
+      border-radius: 50%;
+      background: var(--color-background-alt);
+      transition: var(--transition);
+    }
+
+    .icon-item:hover .icon-art {
+      background: var(--color-primary);
+      transform: translateY(-7px);
+    }
+
+    .icon-art svg {
+      width: 43px;
+      height: 43px;
+      fill: none;
+      stroke: var(--color-secondary-dark);
+      stroke-width: 1.6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .icon-item:hover svg {
+      stroke: var(--color-secondary-light);
+    }
+
+    .icon-item h3 {
+      font-family: var(--font-heading);
+      font-size: 29px;
+      color: var(--color-primary);
+      font-weight: 600;
+      margin-bottom: 9px;
+    }
+
+    .icon-item p {
+      font-size: 16px;
+      color: var(--color-text-muted);
+      max-width: 300px;
+      margin: auto;
+    }
+
+    /* TREATMENTS */
+
+    .treatments {
+      background: var(--color-primary);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .treatments::before {
+      content: "";
+      position: absolute;
+      width: 480px;
+      height: 480px;
+      border: 1px solid rgba(220,165,74,.15);
+      border-radius: 50%;
+      top: -250px;
+      right: -120px;
+      box-shadow: 0 0 0 45px rgba(220,165,74,.025);
+    }
+
+    .treatments .section-heading {
+      color: white;
+    }
+
+    .treatments .section-description {
+      color: rgba(255,255,255,.68);
+    }
+
+    .treatments-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 30px;
+      margin-bottom: 60px;
+      position: relative;
+    }
+
+    .treatment-list {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 70px;
+    }
+
+    .treatment {
+      display: grid;
+      grid-template-columns: 75px 1fr 35px;
+      align-items: center;
+      gap: 18px;
+      padding: 26px 0;
+      border-top: 1px solid rgba(255,255,255,.19);
+      transition: var(--transition);
+    }
+
+    .treatment:last-child,
+    .treatment:nth-last-child(2) {
+      border-bottom: 1px solid rgba(255,255,255,.19);
+    }
+
+    .treatment-number {
+      font-family: var(--font-heading);
+      font-size: 32px;
+      color: var(--color-secondary);
+    }
+
+    .treatment h3 {
+      font-family: var(--font-heading);
+      font-size: 29px;
+      font-weight: 500;
+      color: white;
+      line-height: 1.2;
+    }
+
+    .treatment p {
+      color: rgba(255,255,255,.62);
+      font-size: 15px;
+      margin-top: 6px;
+    }
+
+    .treatment-arrow {
+      color: var(--color-secondary);
+      font-size: 24px;
+      transition: transform var(--transition);
+    }
+
+    .treatment:hover .treatment-arrow {
+      transform: translateX(7px);
+    }
+
+    .treatment:hover h3 {
+      color: var(--color-secondary-light);
+    }
+
+    .treatment-footer {
+      margin-top: 38px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      color: rgba(255,255,255,.72);
+      font-size: 15px;
+    }
+
+    /* FEATURE EXPERIENCE */
+
+    .ritual {
+      background: var(--color-background-alt);
+    }
+
+    .ritual-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      gap: 85px;
+    }
+
+    .ritual-copy .section-description {
+      margin-bottom: 28px;
+    }
+
+    .ritual-visual {
+      position: relative;
+      height: 560px;
+      background: #d9c7aa;
+    }
+
+    .ritual-visual img {
+      object-position: center;
+    }
+
+    .ritual-label {
+      position: absolute;
+      bottom: 25px;
+      left: -35px;
+      max-width: 280px;
+      padding: 25px;
+      background: var(--color-primary);
+      color: white;
+      border-left: 4px solid var(--color-secondary);
+    }
+
+    .ritual-label span {
+      color: var(--color-secondary);
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .ritual-label h3 {
+      font-family: var(--font-heading);
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 1.15;
+      margin-top: 8px;
+    }
+
+    /* CUSTOMER JOURNEY */
+
+    .journey {
+      background: white;
+    }
+
+    .journey-header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .journey-header .section-description {
+      margin-inline: auto;
+    }
+
+    .journey-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid var(--color-border);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .journey-step {
+      padding: 35px 30px;
+      border-right: 1px solid var(--color-border);
+    }
+
+    .journey-step:last-child {
+      border-right: none;
+    }
+
+    .journey-step span {
+      font-family: var(--font-heading);
+      font-size: 43px;
+      color: var(--color-secondary-dark);
+    }
+
+    .journey-step h3 {
+      font-family: var(--font-heading);
+      font-size: 29px;
+      color: var(--color-primary);
+      margin: 10px 0;
+    }
+
+    .journey-step p {
+      color: var(--color-text-muted);
+      font-size: 16px;
+    }
+
+    /* LOCATION */
+
+    .location {
+      background: var(--color-background-alt);
+    }
+
+    .location-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 75px;
+      align-items: center;
+    }
+
+    .location-visual {
+      min-height: 430px;
+      background:
+        linear-gradient(145deg, rgba(15,23,42,.92), rgba(15,23,42,.75)),
+        url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80")
+        center / cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 35px;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .location-visual::after {
+      content: "";
+      position: absolute;
+      inset: 17px;
+      border: 1px solid rgba(220,165,74,.65);
+      pointer-events: none;
+    }
+
+    .location-symbol {
+      color: var(--color-secondary);
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .location-visual h3 {
+      font-family: var(--font-heading);
+      font-size: 39px;
+      font-weight: 500;
+      line-height: 1.1;
+    }
+
+    .location-visual p {
+      font-size: 16px;
+      color: rgba(255,255,255,.76);
+      margin-top: 12px;
+    }
+
+    .location-details {
+      margin: 28px 0;
+    }
+
+    .location-row {
+      display: grid;
+      grid-template-columns: 115px 1fr;
+      gap: 15px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--color-border);
+      font-size: 16px;
+    }
+
+    .location-row strong {
+      color: var(--color-primary);
+    }
+
+    .location-row span {
+      color: var(--color-text-muted);
+      overflow-wrap: anywhere;
+    }
+
+    .location-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+    }
+
+    /* FINAL CTA */
+
+    .final-cta {
+      background:
+        linear-gradient(rgba(8,14,28,.94), rgba(8,14,28,.94)),
+        url("https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1800&q=80")
+        center / cover;
+      padding: 105px 0;
+      text-align: center;
+    }
+
+    .final-cta .eyebrow {
+      color: var(--color-secondary-light);
+    }
+
+    .final-cta h2 {
+      font-family: var(--font-heading);
+      font-weight: 500;
+      font-size: clamp(48px, 6vw, 75px);
+      line-height: 1.04;
+      color: white;
+      max-width: 800px;
+      margin: 22px auto;
+    }
+
+    .final-cta p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: rgba(255,255,255,.72);
+      font-size: 17px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+      background: var(--color-primary-dark);
+      color: white;
+      padding: 75px 0 100px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr .8fr 1fr;
+      gap: 65px;
+    }
+
+    .footer-brand p {
+      color: rgba(255,255,255,.65);
+      max-width: 380px;
+      margin-top: 22px;
+      font-size: 16px;
+    }
+
+    .footer h3 {
+      font-family: var(--font-heading);
+      font-size: 29px;
+      font-weight: 500;
+      margin-bottom: 22px;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 12px;
+      color: rgba(255,255,255,.7);
+      font-size: 15px;
+    }
+
+    .footer-links a:hover {
+      color: var(--color-secondary);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 60px;
+      padding-top: 25px;
+      border-top: 1px solid rgba(255,255,255,.15);
+      color: rgba(255,255,255,.55);
+      font-size: 14px;
+    }
+
+    /* MOBILE STICKY CTA */
+
+    .mobile-cta {
+      display: none;
+    }
+
+    /* REVEAL ANIMATIONS */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity .8s ease, transform .8s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* RESPONSIVE */
+
+    @media (max-width: 1100px) {
+      :root {
+        --section-space: 85px;
+      }
+
+      .nav-links {
+        gap: 18px;
+      }
+
+      .nav-call {
+        display: none;
+      }
+
+      .intro-grid,
+      .ritual-grid {
+        gap: 50px;
+      }
+
+      .location-grid {
+        gap: 45px;
+      }
+    }
+
+    @media (max-width: 850px) {
+      .menu-toggle {
+        display: block;
+      }
+
+      .nav-actions .btn {
+        display: none;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: min(370px, 85%);
+        height: 100dvh;
+        background: var(--color-primary-dark);
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 65px 35px;
+        gap: 25px;
+        transition: right .4s ease;
+        box-shadow: -15px 0 40px rgba(0,0,0,.2);
+      }
+
+      .nav-links.active {
+        right: 0;
+      }
+
+      .nav-links a {
+        font-size: 19px;
+      }
+
+      .menu-toggle.active {
+        position: fixed;
+        top: 20px;
+        right: 25px;
+        z-index: 1002;
+      }
+
+      .hero,
+      .hero-inner {
+        min-height: 640px;
+      }
+
+      .intro-grid,
+      .ritual-grid,
+      .location-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .intro-visual {
+        max-width: 580px;
+        width: 100%;
+      }
+
+      .ritual-visual {
+        max-width: 600px;
+        width: 100%;
+        margin-left: auto;
+      }
+
+      .treatments-header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-brand {
+        grid-column: 1 / -1;
+      }
+    }
+
+    @media (max-width: 600px) {
+      :root {
+        --section-space: 68px;
+      }
+
+      html {
+        scroll-padding-top: 80px;
+      }
+
+      .container {
+        width: calc(100% - 36px);
+      }
+
+      .topbar {
+        font-size: 13px;
+      }
+
+      .nav {
+        min-height: 76px;
+      }
+
+      .logo-main {
+        font-size: 30px;
+      }
+
+      .logo-sub {
+        font-size: 9px;
+      }
+
+      .hero,
+      .hero-inner {
+        min-height: 650px;
+      }
+
+      .hero::before {
+        background:
+          linear-gradient(90deg,
+            rgba(8,14,28,.93),
+            rgba(8,14,28,.72)),
+          url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80")
+          center / cover;
+      }
+
+      .hero-content {
+        padding: 75px 0 65px;
+      }
+
+      .hero h1 {
+        font-size: clamp(55px, 14vw, 72px);
+        letter-spacing: -1px;
+      }
+
+      .hero-description {
+        font-size: 16px;
+      }
+
+      .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .hero-actions .btn {
+        width: 100%;
+      }
+
+      .hero-location {
+        margin-top: 38px;
+        font-size: 14px;
+      }
+
+      .hero-index {
+        display: none;
+      }
+
+      .section-heading {
+        font-size: 43px;
+      }
+
+      .intro-visual {
+        min-height: 400px;
+      }
+
+      .intro-image {
+        height: 360px;
+      }
+
+      .intro-note {
+        width: 195px;
+        padding: 18px;
+      }
+
+      .icon-rows {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px 12px;
+      }
+
+      .icon-art {
+        width: 75px;
+        height: 75px;
+      }
+
+      .icon-art svg {
+        width: 36px;
+        height: 36px;
+      }
+
+      .icon-item {
+        padding: 0 4px;
+      }
+
+      .icon-item h3 {
+        font-size: 24px;
+      }
+
+      .icon-item p {
+        font-size: 15px;
+      }
+
+      .treatment-list {
+        grid-template-columns: 1fr;
+      }
+
+      .treatment:last-child,
+      .treatment:nth-last-child(2) {
+        border-bottom: 0;
+      }
+
+      .treatment:last-child {
+        border-bottom: 1px solid rgba(255,255,255,.19);
+      }
+
+      .treatment {
+        grid-template-columns: 55px 1fr 25px;
+        gap: 12px;
+      }
+
+      .treatment h3 {
+        font-size: 26px;
+      }
+
+      .treatment-footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .ritual-visual {
+        height: 410px;
+      }
+
+      .ritual-label {
+        left: 0;
+        bottom: 15px;
+        max-width: 235px;
+        padding: 20px;
+      }
+
+      .journey-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .journey-step {
+        border-right: 0;
+        border-bottom: 1px solid var(--color-border);
+        padding: 27px 10px;
+      }
+
+      .journey-step:last-child {
+        border-bottom: 0;
+      }
+
+      .location-visual {
+        min-height: 330px;
+      }
+
+      .location-row {
+        grid-template-columns: 90px 1fr;
+        font-size: 15px;
+      }
+
+      .location-actions {
+        flex-direction: column;
+      }
+
+      .location-actions .btn {
+        width: 100%;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+      }
+
+      .footer-brand {
+        grid-column: auto;
+      }
+
+      .footer {
+        padding-bottom: 125px;
+      }
+
+      .final-cta {
+        padding: 80px 0;
+      }
+
+      .mobile-cta {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1100;
+        padding: 12px 14px calc(12px + env(safe-area-inset-bottom));
+        background: rgba(8,14,28,.98);
+        border-top: 1px solid rgba(220,165,74,.35);
+      }
+
+      .mobile-cta .btn {
+        min-height: 52px;
+        padding: 10px 8px;
+        font-size: 15px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DaySpa",
+    "name": "Satisfaction Spa",
+    "url": "https://satisfactiongranddubai.com/",
+    "telephone": "+971526799226",
+    "email": "info@satisfactiongranddubai.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Grand Excelsior Hotel, Al Muteena Street, Deira",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "11:00",
+        "closes": "03:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "03:00"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Spa Treatments",
+      "itemListElement": [
+        {"@type":"OfferCatalog","name":"Arabic Massage"},
+        {"@type":"OfferCatalog","name":"Moroccan Bath"},
+        {"@type":"OfferCatalog","name":"Hot Stone Massage"},
+        {"@type":"OfferCatalog","name":"Dead Sea Mud Mask Bath"},
+        {"@type":"OfferCatalog","name":"Massage with Jacuzzi"},
+        {"@type":"OfferCatalog","name":"Ashiatsu Massage"},
+        {"@type":"OfferCatalog","name":"Thai Massage"},
+        {"@type":"OfferCatalog","name":"Turkish Bath"},
+        {"@type":"OfferCatalog","name":"Four Hands Massage"}
+      ]
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    Your time to unwind starts here.
+    <a href="https://wa.me/971588655275">Enquire on WhatsApp →</a>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+
+      <a href="#home" class="logo" aria-label="Satisfaction Spa home">
+        <span class="logo-main">Satisfaction</span>
+        <span class="logo-sub">Spa & Wellness</span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Our Experience</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#ritual">Signature Rituals</a></li>
+        <li><a href="#location">Location</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="tel:+971526799226" class="nav-call">
+          <span>✦</span> +971 52 679 9226
+        </a>
+        <a href="https://wa.me/971588655275" class="btn btn-gold">
+          Reserve a Visit ↗
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+
+        <div class="hero-content reveal">
+
+          <span class="eyebrow">
+            Satisfaction Spa · Deira, Dubai
+          </span>
+
+          <h1>
+            Discover the
+            <em>Art of Relaxation.</em>
+          </h1>
+
+          <p class="hero-description">
+            Step away from the everyday and explore a collection of
+            massage therapies and traditional bath experiences at
+            Satisfaction Spa, Grand Excelsior Hotel, Dubai.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/971588655275"
+               class="btn btn-gold">
+              Book Your Experience <span>↗</span>
+            </a>
+
+            <a href="#treatments" class="btn btn-outline">
+              Explore Treatments <span>↓</span>
+            </a>
+          </div>
+
+          <div class="hero-location">
+            <span class="location-mark">⌖</span>
+            <span>
+              Located at <strong>Grand Excelsior Hotel</strong><br>
+              Al Muteena Street, Deira, Dubai
+            </span>
+          </div>
+
+        </div>
+
+        <div class="hero-index">A MOMENT FOR YOURSELF · DUBAI</div>
+
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section intro" id="about">
+      <div class="container intro-grid">
+
+        <div class="intro-visual reveal">
+          <div class="intro-image">
+            <img
+              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85"
+              alt="Peaceful spa interior with a relaxing atmosphere"
+              loading="lazy"
+              onerror="this.style.display='none'">
+          </div>
+
+          <div class="intro-note">
+            <span>A little time.</span>
+            <p>A different feeling. A moment to focus on yourself.</p>
+          </div>
+        </div>
+
+        <div class="intro-copy reveal">
+          <span class="eyebrow">Welcome to Satisfaction Spa</span>
+
+          <h2 class="section-heading">
+            An Escape From The
+            <span class="gold">Everyday.</span>
+          </h2>
+
+          <p class="section-description">
+            Located within Grand Excelsior Hotel in Deira, Satisfaction
+            Spa brings together massage therapies and traditional
+            wellness experiences in one convenient Dubai location.
+          </p>
+
+          <p class="section-description">
+            From Arabic and Thai massage to Moroccan and Turkish bath
+            experiences, explore different ways to make time for
+            relaxation.
+          </p>
+
+          <div class="intro-points">
+            <span>Massage Therapies</span>
+            <span>Traditional Bath Experiences</span>
+            <span>Dubai Hotel Location</span>
+          </div>
+
+          <a href="#treatments" class="btn btn-dark">
+            Discover Our Treatments →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SIX CUSTOM SVG ICONS: EXACTLY TWO ROWS OF THREE -->
+    <section class="section experience">
+      <div class="container">
+
+        <div class="experience-header reveal">
+          <span class="eyebrow">Explore The Experience</span>
+
+          <h2 class="section-heading">
+            Wellness, In Different Ways.
+          </h2>
+
+          <p class="section-description">
+            Discover the different treatment experiences available
+            at Satisfaction Spa, from traditional massage techniques
+            to relaxing bath rituals.
+          </p>
+        </div>
+
+        <div class="icon-rows">
+
+          <!-- ICON 1 -->
+          <article class="icon-item reveal">
+            <div class="icon-art">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M12 28c4-9 20-9 24 0"/>
+                <path d="M9 33c7-5 23-5 30 0"/>
+                <path d="M17 19c-3-4-1-8 2-10"/>
+                <path d="M24 17c-3-5-1-9 2-12"/>
+                <path d="M31 19c-2-4 0-7 3-9"/>
+                <path d="M14 37h20"/>
+              </svg>
+            </div>
+            <h3>Relaxation</h3>
+            <p>Make room for a slower pace and a more restful experience.</p>
+          </article>
+
+          <!-- ICON 2 -->
+          <article class="icon-item reveal">
+            <div class="icon-art">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M9 26c5-7 25-7 30 0"/>
+                <path d="M12 30h24"/>
+                <path d="M16 17c-4-4-2-8 1-10"/>
+                <path d="M24 15c-3-4-2-8 1-11"/>
+                <path d="M32 17c-3-4-1-8 2-10"/>
+                <path d="M14 35c5 4 15 4 20 0"/>
+              </svg>
+            </div>
+            <h3>Massage Therapies</h3>
+            <p>Explore different massage techniques and treatment styles.</p>
+          </article>
+
+          <!-- ICON 3 -->
+          <article class="icon-item reveal">
+            <div class="icon-art">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M12 16h24l-3 22H15z"/>
+                <path d="M17 16c0-4 3-7 7-7s7 3 7 7"/>
+                <path d="M19 24c-2-3 1-5 0-8"/>
+                <path d="M25 24c-2-3 1-5 0-8"/>
+                <path d="M31 24c-2-3 1-5 0-8"/>
+              </svg>
+            </div>
+            <h3>Bath Rituals</h3>
+            <p>Discover Moroccan and Turkish bath traditions.</p>
+          </article>
+
+          <!-- ICON 4 -->
+          <article class="icon-item reveal">
+            <div class="icon-art">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M12 28c0-7 5-13 12-13s12 6 12 13"/>
+                <path d="M9 28h30v6H9z"/>
+                <path d="M15 34v5"/>
+                <path d="M33 34v5"/>
+                <path d="M19 9c-2-3 1-5 0-7"/>
+                <path d="M27 9c-2-3 1-5 0-7"/>
+              </svg>
+            </div>
+            <h3>Hot Stone</h3>
+            <p>Experience the warmth of a dedicated hot stone treatment.</p>
+          </article>
+
+          <!-- ICON 5 -->
+          <article class="icon-item reveal">
+            <div class="icon-art">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 7c-5 7-12 13-12 21a12 12 0 0 0 24 0c0-8-7-14-12-21z"/>
+                <path d="M19 30c1 3 3 4 6 4"/>
+                <path d="M24 14c-2 4-4 6-6 9"/>
+              </svg>
+            </div>
+            <h3>Water & Oils</h3>
+            <p>Explore treatments involving warm water and aromatic oils.</p>
+          </article>
+
+          <!-- ICON 6 -->
+          <article class="icon-item reveal">
+            <div class="icon-art">
+              <svg viewBox="0 0 48 48" aria-hidden="true">
+                <path d="M24 5l3.8 11.2L39 20l-11.2 3.8L24 35l-3.8-11.2L9 20l11.2-3.8z"/>
+                <path d="M37 31l1.8 5.2L44 38l-5.2 1.8L37 45l-1.8-5.2L30 38l5.2-1.8z"/>
+              </svg>
+            </div>
+            <h3>Personal Time</h3>
+            <p>Give yourself an opportunity to pause and recharge.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TREATMENTS -->
+    <section class="section treatments" id="treatments">
+      <div class="container">
+
+        <div class="treatments-header reveal">
+          <div>
+            <span class="eyebrow">Our Treatment Collection</span>
+
+            <h2 class="section-heading">
+              Find Your Way To
+              <span class="gold">Relaxation.</span>
+            </h2>
+
+            <p class="section-description">
+              Explore the treatment options available at Satisfaction
+              Spa and choose the experience you would like to enquire about.
+            </p>
+          </div>
+
+          <a href="https://wa.me/971588655275"
+             class="btn btn-gold">
+            Ask About Treatments ↗
+          </a>
+        </div>
+
+        <div class="treatment-list">
+
+          <a href="https://satisfactiongranddubai.com/massage_services/arabic-massage/"
+             class="treatment">
+            <span class="treatment-number">01</span>
+            <div>
+              <h3>Arabic Massage</h3>
+              <p>Explore a traditional massage experience.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/massage-and-moroccan-bath/"
+             class="treatment">
+            <span class="treatment-number">02</span>
+            <div>
+              <h3>Moroccan Bath</h3>
+              <p>A traditional bathing and cleansing ritual.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/hot-stone-massage/"
+             class="treatment">
+            <span class="treatment-number">03</span>
+            <div>
+              <h3>Hot Stone Massage</h3>
+              <p>Massage incorporating the warmth of heated stones.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/dead-see-mud-mask-bath/"
+             class="treatment">
+            <span class="treatment-number">04</span>
+            <div>
+              <h3>Dead Sea Mud Mask Bath</h3>
+              <p>A mineral mud-based body treatment.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/massage-with-jacuzzi/"
+             class="treatment">
+            <span class="treatment-number">05</span>
+            <div>
+              <h3>Massage With Jacuzzi</h3>
+              <p>Explore a massage and jacuzzi combination.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/ashiatsu-massage/"
+             class="treatment">
+            <span class="treatment-number">06</span>
+            <div>
+              <h3>Ashiatsu Massage</h3>
+              <p>Discover this specialised massage technique.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/thai-massage/"
+             class="treatment">
+            <span class="treatment-number">07</span>
+            <div>
+              <h3>Thai Massage</h3>
+              <p>Explore a traditional Thai massage experience.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/turkish-bath/"
+             class="treatment">
+            <span class="treatment-number">08</span>
+            <div>
+              <h3>Turkish Bath</h3>
+              <p>Discover a traditional bathing experience.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+          <a href="https://satisfactiongranddubai.com/massage_services/4-hands-massage/"
+             class="treatment">
+            <span class="treatment-number">09</span>
+            <div>
+              <h3>Four Hands Massage</h3>
+              <p>Enquire about this coordinated massage treatment.</p>
+            </div>
+            <span class="treatment-arrow">↗</span>
+          </a>
+
+        </div>
+
+        <div class="treatment-footer">
+          <span>Looking for help choosing a treatment?</span>
+          <a href="https://wa.me/971588655275" class="gold">
+            Speak With The Spa Team →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SIGNATURE RITUAL -->
+    <section class="section ritual" id="ritual">
+      <div class="container ritual-grid">
+
+        <div class="ritual-copy reveal">
+          <span class="eyebrow">Traditional Wellness</span>
+
+          <h2 class="section-heading">
+            Discover The
+            <span class="gold">Moroccan Bath</span>
+            Experience.
+          </h2>
+
+          <p class="section-description">
+            Moroccan bath experiences bring together warm steam,
+            cleansing and exfoliation as part of a traditional
+            wellness ritual.
+          </p>
+
+          <p class="section-description">
+            At Satisfaction Spa, you can explore the Moroccan bath
+            alongside massage options. Contact the team to understand
+            the available treatments and combinations.
+          </p>
+
+          <a href="https://wa.me/971588655275"
+             class="btn btn-dark">
+            Enquire About This Experience →
+          </a>
+        </div>
+
+        <div class="ritual-visual reveal">
+          <img
+            src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=1100&q=85"
+            alt="Warm and tranquil spa treatment environment"
+            loading="lazy"
+            onerror="this.style.display='none'">
+
+          <div class="ritual-label">
+            <span>Traditional Ritual</span>
+            <h3>A Moment To Slow Down.</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CUSTOMER JOURNEY -->
+    <section class="section journey">
+      <div class="container">
+
+        <div class="journey-header reveal">
+          <span class="eyebrow">Your Spa Visit</span>
+
+          <h2 class="section-heading">
+            A Simple Way To Begin.
+          </h2>
+
+          <p class="section-description">
+            Have a treatment in mind? Get in touch with the spa team
+            to discuss your preferences and arrange your visit.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+
+          <article class="journey-step reveal">
+            <span>01</span>
+            <h3>Explore</h3>
+            <p>
+              Browse the available massage therapies and bath experiences
+              to find a treatment that interests you.
+            </p>
+          </article>
+
+          <article class="journey-step reveal">
+            <span>02</span>
+            <h3>Enquire</h3>
+            <p>
+              Contact Satisfaction Spa by telephone or WhatsApp
+              to ask about treatments, availability and pricing.
+            </p>
+          </article>
+
+          <article class="journey-step reveal">
+            <span>03</span>
+            <h3>Arrange Your Visit</h3>
+            <p>
+              Discuss your preferred appointment time with the team
+              and confirm your visit directly.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section class="section location" id="location">
+      <div class="container location-grid">
+
+        <div class="location-visual reveal">
+          <div>
+            <div class="location-symbol">⌖</div>
+            <h3>Find Your Moment Of Calm.</h3>
+            <p>Grand Excelsior Hotel · Deira · Dubai</p>
+          </div>
+        </div>
+
+        <div class="location-copy reveal">
+
+          <span class="eyebrow">Visit Satisfaction Spa</span>
+
+          <h2 class="section-heading">
+            Your Spa Experience
+            <span class="gold">In Dubai.</span>
+          </h2>
+
+          <p class="section-description">
+            Find Satisfaction Spa at Grand Excelsior Hotel,
+            on Al Muteena Street in Deira, Dubai.
+          </p>
+
+          <div class="location-details">
+
+            <div class="location-row">
+              <strong>Location</strong>
+              <span>Grand Excelsior Hotel, Al Muteena Street, Deira, Dubai, UAE</span>
+            </div>
+
+            <div class="location-row">
+              <strong>Telephone</strong>
+              <span><a href="tel:+971526799226">+971 52 679 9226</a></span>
+            </div>
+
+            <div class="location-row">
+              <strong>WhatsApp</strong>
+              <span><a href="https://wa.me/971588655275">+971 58 865 5275</a></span>
+            </div>
+
+            <div class="location-row">
+              <strong>Email</strong>
+              <span><a href="mailto:info@satisfactiongranddubai.com">info@satisfactiongranddubai.com</a></span>
+            </div>
+
+            <div class="location-row">
+              <strong>Hours</strong>
+              <span>
+                Mon–Fri: 11 AM–3 AM<br>
+                Sat–Sun: 12 AM–3 AM
+              </span>
+            </div>
+
+          </div>
+
+          <div class="location-actions">
+            <a class="btn btn-dark"
+               href="https://www.google.com/maps/search/?api=1&query=Grand+Excelsior+Hotel+Al+Muteena+Street+Deira+Dubai">
+              Get Directions ↗
+            </a>
+
+            <a class="btn btn-gold"
+               href="https://wa.me/971588655275">
+              Contact The Spa →
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="container reveal">
+
+        <span class="eyebrow">Your Time Starts Here</span>
+
+        <h2>
+          Make Space For
+          <span class="gold">Relaxation.</span>
+        </h2>
+
+        <p>
+          Explore the treatments at Satisfaction Spa and speak
+          with our team about arranging your next visit in Deira, Dubai.
+        </p>
+
+        <a href="https://wa.me/971588655275"
+           class="btn btn-gold">
+          Enquire & Reserve Your Visit ↗
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <span class="logo-main">Satisfaction</span>
+            <span class="logo-sub">Spa & Wellness</span>
+          </a>
+
+          <p>
+            Discover massage therapies and traditional bath experiences
+            at Satisfaction Spa, Grand Excelsior Hotel, Deira, Dubai.
+          </p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <ul class="footer-links">
+            <li><a href="#about">Our Experience</a></li>
+            <li><a href="#treatments">Treatments</a></li>
+            <li><a href="#ritual">Moroccan Bath</a></li>
+            <li><a href="#location">Our Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Get In Touch</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="tel:+971526799226">+971 52 679 9226</a>
+            </li>
+            <li>
+              <a href="https://wa.me/971588655275">WhatsApp Us</a>
+            </li>
+            <li>
+              <a href="mailto:info@satisfactiongranddubai.com">
+                info@satisfactiongranddubai.com
+              </a>
+            </li>
+            <li>Grand Excelsior Hotel, Deira, Dubai</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Satisfaction Spa. All Rights Reserved.</span>
+        <a href="#home">Back To Top ↑</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- EXACTLY TWO MOBILE CTA BUTTONS -->
+  <div class="mobile-cta">
+    <a href="tel:+971526799226" class="btn btn-outline">
+      Call Now
+    </a>
+
+    <a href="https://wa.me/971588655275" class="btn btn-gold">
+      WhatsApp Us
+    </a>
+  </div>
+
+  <script>
+    // MOBILE NAVIGATION
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    const navItems = document.querySelectorAll('.nav-links a');
+
+    function closeMenu() {
+      navLinks.classList.remove('active');
+      menuToggle.classList.remove('active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Open navigation');
+      menuToggle.textContent = '☰';
+      document.body.classList.remove('menu-open');
+    }
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('active');
+
+      menuToggle.classList.toggle('active', isOpen);
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+      menuToggle.setAttribute(
+        'aria-label',
+        isOpen ? 'Close navigation' : 'Open navigation'
+      );
+      menuToggle.textContent = isOpen ? '×' : '☰';
+
+      document.body.classList.toggle('menu-open', isOpen);
+    });
+
+    navItems.forEach(link => {
+      link.addEventListener('click', closeMenu);
+    });
+
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape') closeMenu();
+    });
+
+    document.addEventListener('click', event => {
+      if (
+        navLinks.classList.contains('active') &&
+        !navLinks.contains(event.target) &&
+        !menuToggle.contains(event.target)
+      ) {
+        closeMenu();
+      }
+    });
+
+    // SCROLL REVEAL
+    const revealElements = document.querySelectorAll('.reveal');
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.12,
+        rootMargin: '0px 0px -30px 0px'
+      });
+
+      revealElements.forEach(element => observer.observe(element));
+    } else {
+      revealElements.forEach(element => {
+        element.classList.add('visible');
+      });
+    }
+
+    // FOOTER YEAR
+    document.getElementById('year').textContent =
+      new Date().getFullYear();
+
+  </script>
+
+</body>
+</html>
